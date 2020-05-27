@@ -1,0 +1,23 @@
+.white_line {
+  color: white;
+  
+ 
+}
+
+.blue_line {
+  color: blue;
+}
+.red_line {
+  color: red;
+}
+
+.flag{
+  background-color:teal;
+  width: 930px;
+  border-style: solid;
+}
+
+.form_send_data {
+  margin: 20 px;
+  border-style: solid;
+}

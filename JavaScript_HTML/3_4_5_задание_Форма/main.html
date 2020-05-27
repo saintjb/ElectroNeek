@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content="width=device-width, initial-scale=1">
+    <title>Форма для данных</title>
+  </head>
+  <body>
+    <div class='form_send_data'>
+        <form name="info_form" method="POST">
+          <p><b>Ваше ФИО:</b></p>
+           <input type="text" size="30" class="fio" value='.'>
+           <br>
+           <p><b>Телефон:</b></p>
+           <input type="tel" class='phone' value="." pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
+           <button  class='btn'>+</button>
+           <script src='new_field.js'></script>
+           <p class="commenta"><b>Комментарий</b><br>
+            <textarea class='cmnt' name='comment' cols='40' rows="3"></textarea></p>
+            <button  class='snd' value="Отправить">Send</button>
+        </form>
+      </div>
+      <script src='fill_fields.js'></script>
+  </body>
+</html>
+
+
+
