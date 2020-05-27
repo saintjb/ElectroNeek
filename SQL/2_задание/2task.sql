@@ -1,0 +1,1 @@
+SELECT department_id FROM employee GROUP BY department_id HAVING count(*) <= 3;

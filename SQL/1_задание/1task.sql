@@ -1,0 +1,1 @@
+SELECT a.* FROM employee a WHERE a.salary= (SELECT max(salary) from employee b WHERE b.department_id = a.department_id );

@@ -1,0 +1,1 @@
+INSERT INTO sometable(имя общей таблицы) VALUES (2, 'Employeees');

@@ -1,0 +1,2 @@
+WITH sum_salary AS ( SELECT department_id, sum(salary) salary FROM employee GROUP BY department_id) SELECT department_id FROM sum_salary a       
+WHERE  a.salary = ( SELECT max(salary) FROM sum_salary ); 
